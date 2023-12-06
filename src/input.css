@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*hide the number input arrows for safari edge opera chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*hide the number input arrows for firefox */
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+
