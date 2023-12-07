@@ -115,7 +115,7 @@ function check_input() {
 
 continue_btn.addEventListener("click", function() {
     document.getElementById("form").classList.remove("hidden");
-    document.getElementById("form").classList.ad("flex");
+    document.getElementById("form").classList.add("flex");
     document.getElementById("thanks").classList.add("hidden");
     document.getElementById("thanks").classList.remove("flex");
     card_number_in.value ="";
@@ -123,8 +123,8 @@ continue_btn.addEventListener("click", function() {
     month_in.value = "";
     year_in.value = ""
     cvc_in.value = "";
-    on_card_number.innerHTML ="Jane Appleseed"; 
-    on_card_name.innerHTML = "0000 0000 0000 0000";
+    on_card_name.innerHTML ="Jane Appleseed"; 
+    on_card_number.innerHTML = "0000 0000 0000 0000";
     on_card_month.innerHTML = "00";
     on_card_year.innerHTML = "00";
     on_card_cvc.innerHTML = "000";
